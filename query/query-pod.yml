@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: query
+  labels:
+    app: query
+    rel: stable
+spec:
+  containers:
+    - name: query
+      image: query:latest
+      ports:
+        - containerPort: 4002
+      resources: {}

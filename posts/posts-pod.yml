@@ -4,10 +4,9 @@ metadata:
   name: posts
   labels:
     app: posts
+    
 spec:
   containers:
     - name: posts
-      image: posts
-      ports:
-        - containerPort: 4000
-      resources: {}
+      image: posts:latest
+     
