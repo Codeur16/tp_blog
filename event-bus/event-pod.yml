@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
     - name: event-bus-container
-      image: event-bus:latest
+      image: loico16/event-bus:v1
      

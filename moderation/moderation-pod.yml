@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: moderation
-    image: loico16/moderation:latest
+    image: loico16/moderation:v1
