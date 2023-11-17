@@ -1,9 +1,11 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: Pod
 metadata:
   name: query-pod
 spec:
   containers:
-    - name: query-container
+    - name: query
       image: loico16/query:v1
+    ports:
+        - containerPort: 4002
      

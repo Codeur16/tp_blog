@@ -4,6 +4,6 @@ metadata:
   name: event-bus-pod
 spec:
   containers:
-    - name: event-bus-container
-      image: loico16/event-bus:v1
+    - name: event-bus
+      image: localhost:5000/event-bus:v1
      

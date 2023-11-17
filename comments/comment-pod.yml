@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
     - name: comments-container
-      image: loico16/comments:v1
+      image: localhost:5000/comments:v1
      
